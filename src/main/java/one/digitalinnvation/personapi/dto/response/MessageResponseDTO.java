@@ -1,4 +1,4 @@
-package one.digitalinnvation.personapi.dto;
+package one.digitalinnvation.personapi.dto.response;
 
 import lombok.Builder;
 import lombok.Data;
