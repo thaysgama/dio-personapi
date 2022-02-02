@@ -5,7 +5,7 @@ import one.digitalinnvation.personapi.dto.request.PersonDTO;
 import one.digitalinnvation.personapi.dto.response.MessageResponseDTO;
 import one.digitalinnvation.personapi.entity.Person;
 import one.digitalinnvation.personapi.exception.PersonNotFoundException;
-import one.digitalinnvation.personapi.mapper.PersonMapper;
+import one.digitalinnvation.personapi.dto.mapper.PersonMapper;
 import one.digitalinnvation.personapi.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

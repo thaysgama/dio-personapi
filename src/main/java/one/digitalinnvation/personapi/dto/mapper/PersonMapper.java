@@ -1,4 +1,4 @@
-package one.digitalinnvation.personapi.mapper;
+package one.digitalinnvation.personapi.dto.mapper;
 
 import one.digitalinnvation.personapi.dto.request.PersonDTO;
 import one.digitalinnvation.personapi.entity.Person;
@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface PersonMapper {
 
     PersonMapper INSTANCE = Mappers.getMapper(PersonMapper.class);
